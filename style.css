@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: o;
+}
+
+body{
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.left{
+    flex: 50%;
+    margin: 0px 20px 60px 150px;
+    padding: 40px;
+    
+}
+h1{
+    color: white;
+    font-weight: 600;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+.left p{
+    color: white;
+}
+.top{
+    background-color: hsl(249, 65%, 24%);
+    border-radius: 10px;
+    margin: 30px 100px 30px 0px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 5px hsla(255, 7%, 11%, 0.5);
+}
+.formcontainer{
+    background-color: white;
+    margin: 0px  100px 0px 0px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px hsla(255, 7%, 11%, 0.3);
+}
+input{
+    padding: 20px 10px;
+    margin: 20px 0;
+    display: grid;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: hsl(246, 25%, 77%);
+}
+::-webkit-input-placeholder{
+    font-weight: 600;
+}
+button{
+    width: 100%;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: hsl(154, 59%, 51%);
+    border:none;
+    box-shadow: 0px 3px hsl(154, 58%, 35%);
+    margin: 10px 0px;
+    color: white;
+    cursor: grabbing;
+}
+button:hover{
+    opacity: 0.8;
+}
+.formcontainer p{
+    padding: 10px;
+    margin: 0px 20px;
+    font-size: 10px;
+    color: hsl(246, 25%, 77%);
+}
+.formcontainer p a{
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
+}
+@media screen and(max-width:376px) {
+    .row{
+        flex-direction: column;
+    }
+}
