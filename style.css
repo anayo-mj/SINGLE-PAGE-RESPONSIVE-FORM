@@ -87,7 +87,7 @@ button:hover{
 }
 @media screen and(max-width:376px) {
     body{
-        background-image: url(/bg-intro-mobile.png);
+        background-image: url(https://github.com/anayo-mj/SINGLE-PAGE-RESPONSIVE-FORM/blob/master/bg-intro-mobile.png);
     }
     .row{
         flex-direction: column;
